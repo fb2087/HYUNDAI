@@ -1,0 +1,5 @@
+@charset "UTF-8";
+*{margin: 0 auto;}
+ul,li,ol{list-style: none;}
+.slide{width: 100%; height: auto;}
+.slide video{width: 100%; height: auto;}
