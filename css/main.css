@@ -14,3 +14,8 @@ color: white; border: 0;}
 border: 1px solid white;}
 .slide #btn #btn1:hover{background-color: black;}
 .slide #btn #btn2:hover{background-color: rgb(46, 85, 155); border: 0;}
+
+#cars{width: 100%; height: auto;}
+#cars div {width: 475px; height: 250px; float: left;}
+#cars #cars1{background-color: blue;}
+#cars #cars2{background-color: chartreuse;}
