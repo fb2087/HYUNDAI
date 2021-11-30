@@ -22,5 +22,6 @@ display: flex; flex-wrap: wrap; align-content: center; font-size: 30px;
 font-weight: bold;}
 #cars .cars1 a{width: 100%;display: flex; justify-content: center; flex-wrap: wrap;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
-#section1 {width: 100%; height: 515px; float: left;}
-#section1 .txt{width: 950px;} 
+#section1 {width: 100%; height: 515px; display: flex; justify-content: center;}
+#section1 .io{width: 50%;}
+#section1 .txt{width: 50%;} 
