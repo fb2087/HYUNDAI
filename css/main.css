@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-.slide{width: 100%; height: auto;}
-.slide video{width: 100%; height: 100%; position: relative;}
-.slide h1{color: white; text-align: center; position: absolute; font-size: 50px;
-top: 50%; left: 36%;z-index: 4;}
-.slide #opa{width: 100%; height: 1070px; background-color: black; opacity: 0.6; 
-position: absolute; z-index: 2; top: 100px;}
-.slide #btn{position: absolute; z-index: 3; top: 70%; right: 43%;}
+.slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
+justify-content: center; flex-direction: column; align-items: center;}
+.slide video{width: 100%; height: 100%;}
+.slide h1{color: white; text-align: center;font-size: 50px;}
+
+.slide #btn{width: 500px; height: 500px; flex-wrap: wrap;
+display: flex; align-content: center;  justify-content:  space-evenly;
+position: absolute;  z-index: 3; margin: 0 auto;}
+
+.slide #btn a{width: 100%;}
 .slide #btn button{font-size: 20px; cursor: pointer; font-weight: bold;}
 .slide #btn #btn1{width: 150px; height: 50px; background-color: rgb(46, 85, 155); 
 color: white; border: 0;}
@@ -24,4 +27,7 @@ font-weight: bold;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
 #section1 {width: 100%; height: 515px; display: flex; justify-content: center;}
 #section1 .io{width: 50%;}
-#section1 .txt{width: 50%;} 
+#section1 .txt{width: 50%;}
+
+#etc{width: 100%; height: auto; margin: 0 auto;}
+#etc .etc1{width: 1200px; height: 3000px; background-color: coral;}
