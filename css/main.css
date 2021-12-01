@@ -27,7 +27,7 @@ font-weight: bold;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
 #section1 {width: 100%; height: 515px; display: flex; justify-content: center;}
 #section1 .io{width: 50%;}
-#section1 .txt{width: 50%;}
+#section1 .txt{width: 50%; text-align: center;}
 
 #etc{width: 100%; height: auto; margin: 0 auto;}
 #etc .etc1{width: 1200px; height: 3000px; background-color: coral;}
