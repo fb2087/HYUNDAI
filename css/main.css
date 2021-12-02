@@ -35,9 +35,9 @@ background-color: rgb(46, 85, 155); color: white; font-size: 20px;}
 
 
 #etc{width: 100%; height: auto; margin: 0 auto;}
-#etc .etc1{width: 1200px; height: 3000px; background-color: coral; }
+#etc .etc1{width: 1200px; height: 1350px; background-color: coral; }
 #etc .etc1 .lineup{ width:1200px; height: 1200px; display: flex; justify-content: space-evenly; 
- flex-wrap: wrap-reverse;  margin: 0;}
+ flex-wrap: wrap;  margin: 0;}
 #etc .etc1  h1{font-size: 50px; text-align: center;}
 #etc .etc1 .lineup img{width: 580px; height: 370px;}
 #etc .etc1 .lineup div{width: 580px; height: 600px; background-color: cornflowerblue;}
