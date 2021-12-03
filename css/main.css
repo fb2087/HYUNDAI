@@ -35,9 +35,11 @@ background-color: rgb(46, 85, 155); color: white; font-size: 20px;}
 
 
 #etc{width: 100%; height: auto; margin: 0 auto;}
-#etc .etc1{width: 1200px; height: 1350px; background-color: coral; }
-#etc .etc1 .lineup{ width:1200px; height: 1200px; display: flex; justify-content: space-evenly; 
+#etc .etc1{width: 1200px; height: auto; background-color: coral; }
+#etc .etc1 .lineup{ width:1200px; height: auto; display: flex; justify-content: space-evenly; 
  flex-wrap: wrap;  margin: 0;}
 #etc .etc1  h1{font-size: 50px; text-align: center;}
-#etc .etc1 .lineup img{width: 580px; height: 370px;}
-#etc .etc1 .lineup div{width: 580px; height: 600px; background-color: cornflowerblue;}
+#etc .etc1 .lineup img{width: 580px; height: 350px;}
+#etc .etc1 .lineup div{width: 580px; height: 650px; background-color: cornflowerblue;}
+#etc .etc1 .lineup div .info{width: 400px; height: 200px;}
+#etc .etc1 .lineup div hr{width: 50px; border: 3px solid rgb(46, 85, 155); border-radius: 20px;}
