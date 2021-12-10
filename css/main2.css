@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @media(max-width:599px){
-.slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
+.slide{width: 100%; height: auto; margin: 0 auto;  display: flex; 
 justify-content: center; flex-direction: column; align-items: center;}
 .slide video{width: 100%; height: 100%;}
-.slide h1{color: white; text-align: center;font-size: 50px;}
-.slide #btn{width: 500px; height: 500px; flex-wrap: wrap;
+.slide h1{color: white; text-align: center; font-size: 10px;}
+.slide #btn{width: 100%; height: auto; flex-wrap: wrap;
 display: flex; align-content: center;  justify-content:  space-evenly;
 position: absolute;  z-index: 3; margin: 0 auto;}
 .slide #btn a{width: 100%;}
