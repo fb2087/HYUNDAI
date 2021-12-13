@@ -5,7 +5,7 @@ $(function(){
 });
 
 $(window).resize(function(){
-    if(window.innerWidth<=599){
+    if(window.innerWidth<=600){
         $('.a').hide();
     }else{
         $('.a').show();

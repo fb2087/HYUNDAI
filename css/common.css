@@ -15,7 +15,7 @@ header{width: 1200px; height: 100px; margin: 0 auto;
 float: left;  font-weight: bold;
 padding: 40px 10px;}
 .header header nav ul li:hover{background-color:rgb(46, 85, 155) ; cursor: pointer;}
-.header header nav ul li a{width: 100px; height: 100px;}
+.header header nav ul li a{padding: 40px 0;}
 .header header nav ul li:hover a{color: #fff;}
 .header header .icon{width: 200px; height: 100px; float: left; display: flex;
 text-align: center; margin-top: 43px; position: absolute; left: 75%;}
