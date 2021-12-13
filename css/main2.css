@@ -3,53 +3,54 @@
 .slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
 justify-content: center; flex-direction: column; align-items: center;}
 .slide video{width: 100%; height: 100%;}
-.slide h1{color: white; text-align: center;font-size: 50px;}
-.slide #btn{width: 500px; height: 500px; flex-wrap: wrap;
+.slide #btn div h1{color: white; text-align: center;font-size: 30px;}
+.slide #btn{width: auto; height: auto; flex-wrap: wrap;
 display: flex; align-content: center;  justify-content:  space-evenly;
 position: absolute;  z-index: 3; margin: 0 auto;}
 .slide #btn a{width: 100%;}
 .slide #btn button{font-size: 20px; cursor: pointer; font-weight: bold;}
 .slide #btn #btn1{width: 150px; height: 50px; background-color: rgb(46, 85, 155); 
 color: white; border: 0;}
-.slide #btn #btn2{width: 150px; height: 50px; background-color: black; color: white;
-border: 1px solid white;}
+.slide #btn .bt #btn2{width: 150px; height: 50px; background-color: black; color: white;
+border: none;}
 .slide #btn #btn1:hover{background-color: black;}
 .slide #btn #btn2:hover{background-color: rgb(46, 85, 155); border: 0;}
 
-#cars{width: 100%; height: 250px; display: flex; margin-top: -4px;}
-#cars div img{width: 200px; height: 120px; }
-#cars .cars1{width: 25%; height: 250px; background-color: rgb(46, 85, 155); 
+#cars{width: 100%; height: auto; display: flex; flex-wrap: wrap;  margin-top: -4px;}
+#cars div img{width: 50%; height: auto; }
+#cars .cars1{width: 100%; height: auto; background-color: rgb(46, 85, 155); 
 display: flex; flex-wrap: wrap; align-content: center; font-size: 30px;
 font-weight: bold;}
 #cars .cars1 a{width: 100%;display: flex; justify-content: center; flex-wrap: wrap;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
 
-#section1 {width: 100%; height: 515px; display: flex; justify-content: center;}
-#section1 .io{width: 50%;}
-#section1 .txt{width: 50%; display: flex; flex-direction: column; align-items: center;}
-#section1 .txt .txt1{margin-top: 50px;}
+#section1 {width: 100%; height: 800px; display: flex;  flex-direction: column;}
+#section1 .io{width: 100%; height: auto;}
+#section1 .io img{width: 100%; height: auto;}
+#section1 .txt{width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center;}
+#section1 .txt .txt1{font-size: 15px; padding: 10px;}
 #section1 .txt h1{text-align: center;}
 #section1 .txt button{width: 150px; height: 50px; float: left; cursor: pointer; border: 0;
 background-color: rgb(46, 85, 155); color: white; font-size: 20px;}
 #section1 .txt button:hover{background-color: black;}
 
 #etc{width: 100%; height: auto; margin: 0 auto;}
-#etc .etc1{width: 1200px; height: auto; }
-#etc .etc1 .lineup{ width:1200px; height: auto; display: flex; justify-content: space-evenly; 
- flex-wrap: wrap;  margin: 0;}
+#etc .etc1{width: 100%; height: auto; }
+#etc .etc1 .lineup{ width:100%; height: auto; display: flex; justify-content: space-evenly; 
+  flex-direction: column;  margin: 0;}
 #etc .etc1  h1{font-size: 50px; text-align: center;}
-#etc .etc1 .lineup img{width: 580px; height: 350px;}
-#etc .etc1 .lineup div{width: 580px; height: 650px;}
+#etc .etc1 .lineup img{width: 100%; height: auto;}
+#etc .etc1 .lineup div{width: 100%; height: auto;}
 #etc .etc1 .lineup div .info{width: 400px; height: 100px;}
 #etc .etc1 .lineup div hr{width: 50px; border: 3px solid rgb(46, 85, 155); border-radius: 20px;}
 
 .more{width: 100%; height: auto; margin: 0 auto;}
-.more .mbox{width: 1200px; height: 400px; display: flex; justify-content: space-around;
-flex-wrap: wrap;}
-.more .mbox .box{width: 380px; height: 400px; text-align: center;}
+.more .mbox{width: 100%; height: auto; display: flex; justify-content: space-around;
+flex-direction: column;}
+.more .mbox .box{width: 100%; height: auto; text-align: center;}
 .more img{width: 100%; height: 250px;}
 
 .slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; background-color: pink;}
-.slide2 img {width: 100%; height: 900px;}
-.slide2 .sli{width: 1200px; height: 800px; background-color: seagreen;}
+.slide2 img {width: 100%; height: auto;}
+
 }

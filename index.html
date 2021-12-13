@@ -5,22 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>현대자동차</title>
-    <link rel="stylesheet" href="../HYUNDAI/css/main.css">
-    <link rel="stylesheet" href="../HYUNDAI/css/main2.css">
-    <link rel="stylesheet" href="../HYUNDAI/css/main3.css">
-    <link rel="stylesheet" href="../HYUNDAI/css/common.css">
-    <link rel="stylesheet" href="../HYUNDAI/css/common2.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/main3.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common2.css">
+    <link rel="stylesheet" href="css/common3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/header.js"></script>
 </head>
 
 <body>
     
     <div class="header">
         <header>
-            <a href="#"><img src="../HYUNDAI/img/hyundai.png" alt="logo"></a>
-            <a href=""></a><img src="img/menu.png" id="menu" alt="menu">
+            <a href="#"><img src="img/hyundai.png"  alt="logo"></a>
+            <img src="img/menu.png" id="menu" alt="menu">
             <nav>
-                <ul>
+                <ul class="a">
                     <li><a href="#">모델</a></li>
                     <li><a href="#">차량관리</a></li>
                     <li><a href="#">이벤트</a></li>
@@ -41,14 +46,14 @@
     <div class="slide">
         <div id="btn">
             <div><a href="#">
-                    <h1> 무엇이든 가능한 세상<br>IONIQ 5</h1>
+                    <h1 id="t"> 무엇이든 가능한 세상<br>IONIQ 5</h1>
                 </a></div>
             <div class="bt">
                 <button id="btn1" type="button" onclick="location.href='#' ">더알아보기</button>
                 <button id="btn2" type="button" onclick="location.href='#' ">구매하기</button>
             </div>
         </div>
-        <video src="../HYUNDAI/video/slidevideo.mp4" loop muted autoplay></video>
+        <video src="video/slidevideo.mp4" loop muted autoplay></video>
     </div>
     
     <div id="cars">

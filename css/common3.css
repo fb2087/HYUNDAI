@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media(min-width:1200px){
+@media(min-width:600px) and (max-width:1199px){
 *{margin: 0 auto; box-sizing: border-box;}
 ul,li,ol{list-style: none;}
 a{text-decoration: none; color: black;}
@@ -15,7 +15,6 @@ header{width: 1200px; height: 100px; margin: 0 auto;
 float: left;  font-weight: bold;
 padding: 40px 10px;}
 .header header nav ul li:hover{background-color:rgb(46, 85, 155) ; cursor: pointer;}
-.header header nav ul li a{width: 100px; height: 100px;}
 .header header nav ul li:hover a{color: #fff;}
 .header header .icon{width: 200px; height: 100px; float: left; display: flex;
 text-align: center; margin-top: 43px; position: absolute; left: 75%;}

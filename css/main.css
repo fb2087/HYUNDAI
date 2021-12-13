@@ -1,9 +1,9 @@
 @charset "UTF-8";
-
+@media(min-width:1200px){
 .slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
 justify-content: center; flex-direction: column; align-items: center;}
 .slide video{width: 100%; height: 100%;}
-.slide h1{color: white; text-align: center;font-size: 50px;}
+.slide #btn div h1{color: white; text-align: center;font-size: 50px;}
 .slide #btn{width: 500px; height: 500px; flex-wrap: wrap;
 display: flex; align-content: center;  justify-content:  space-evenly;
 position: absolute;  z-index: 3; margin: 0 auto;}
@@ -51,5 +51,6 @@ flex-wrap: wrap;}
 
 .slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; background-color: pink;}
 .slide2 img {width: 100%; height: 900px;}
-.slide2 .sli{width: 1200px; height: 800px; background-color: seagreen;}
 
+
+}
