@@ -50,8 +50,7 @@ flex-direction: column;}
 .more .mbox .box{width: 100%; height: auto; text-align: center; margin-top: 15px;}
 .more img{width: 100%; height: 250px;}
 
-.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; background-color: pink;
-margin-top: 15px;}
+.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; margin-top: 15px;}
 .slide2 img {width: 100%; height: auto;}
 
 }
