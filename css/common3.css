@@ -18,19 +18,19 @@ padding: 40px 10px;}
 .header header nav ul li a{width: 100%; height: 100%;}
 .header header nav ul li:hover a{color: #fff;}
 .header header .icon{width: 200px; height: 100px; float: left; display: flex;
-text-align: center; margin-top: 43px; position: absolute; left: 75%;}
+text-align: center; margin-top: 43px; position: absolute; left: 75%; display: none;}
 .header header .icon a:hover{color: rgb(46, 85, 155);}
 
-.footer{width: 100%; height: 300px; background-color: #242424;}
-.footer .foot{width: 1200px; height: 300px; display: flex; 
+.footer{width: 1024px; height: 300px; background-color: #242424;}
+.footer .foot{width: 1024px; height: 300px; display: flex; 
 margin: 0 auto; align-items: center; float: left;}
 .footer h2{color: white;}
-.footer footer{width: 1200px; height: 300px;}
+.footer footer{width: 1024px; height: 300px;}
 .footer .fl{width: 400px; height: 200px; }
 .footer img {width: 400px; height: 200px;}
 .footer .au{width: 400px; height: 200px;}
 .footer .au {color: #787878;}
-.footer .sns{width: 400px; height: 200px; text-align: center;}
+.footer .sns{width: 400px; height: 200px; text-align: center; display: none;}
 .footer .sns a{margin: 15px; font-size: 30px; color: #787878;}
 .footer .sns a:hover{color:rgb(46, 85, 155);}
 
