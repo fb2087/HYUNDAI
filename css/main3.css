@@ -24,7 +24,7 @@ font-weight: bold;}
 #cars .cars1 a{width: 100%;display: flex; justify-content: center; flex-wrap: wrap;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
 
-#section1 {width: 1024px; height: 515px; display: flex; justify-content: space-evenly;}
+#section1 {width: 100%; height: auto; display: flex; justify-content: space-evenly;}
 #section1 .io{width: 512px;}
 #section1 .io img{width: 100%; height: auto; margin-top: 140px;}
 #section1 .txt{width: 512px; display: flex; flex-direction: column; align-items: center;}
@@ -34,23 +34,23 @@ font-weight: bold;}
 background-color: rgb(46, 85, 155); color: white; font-size: 20px;}
 #section1 .txt button:hover{background-color: black;}
 
-#etc{width: 1024px; height: auto; margin: 0 auto;}
-#etc .etc1{width: 1024px; height: auto; }
-#etc .etc1 .lineup{ width:1024px; height: auto; display: flex; justify-content: space-evenly; 
+#etc{width: 100%; height: auto; margin: 0 auto;}
+#etc .etc1{width: 100%; height: auto; }
+#etc .etc1 .lineup{ width:100%; height: auto; display: flex; justify-content: space-evenly; 
  flex-wrap: wrap;  margin: 0;}
 #etc .etc1  h1{font-size: 50px; text-align: center;}
-#etc .etc1 .lineup img{width: 580px; height: 350px;}
-#etc .etc1 .lineup div{width: 512px; height: 650px;}
-#etc .etc1 .lineup div .info{width: 400px; height: 100px;}
+#etc .etc1 .lineup img{width: 50%; height: auto;}
+#etc .etc1 .lineup div{width: 100%; height: auto; text-align: center;}
+#etc .etc1 .lineup div .info{width: 50%; height: auto;}
 #etc .etc1 .lineup div hr{width: 50px; border: 3px solid rgb(46, 85, 155); border-radius: 20px;}
 
-.more{width: 1024px; height: auto; margin: 0 auto;}
-.more .mbox{width: 1024px; height: 400px; display: flex; justify-content: space-around;
+.more{width: 100%; height: auto; margin: 0 auto;}
+.more .mbox{width: 100%; height: 400px; display: flex; justify-content: space-around;
 flex-wrap: wrap;}
-.more .mbox .box{width: 340px; height: 400px; text-align: center;}
+.more .mbox .box{width: 30%; height: 400px; text-align: center;}
 .more img{width: 100%; height: 250px;}
 
-.slide2{width: 1024px; height: auto; margin: 0 auto; margin-bottom: -4px; }
+.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; }
 .slide2 img {width: 100%; height: auto;}
 
 
