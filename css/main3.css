@@ -24,14 +24,16 @@ font-weight: bold;}
 #cars .cars1 a{width: 100%;display: flex; justify-content: center; flex-wrap: wrap;}
 #cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
 
-#section1 {width: 100%; height: auto; display: flex; justify-content: space-evenly;}
-#section1 .io{width: 512px;}
-#section1 .io img{width: 100%; height: auto; margin-top: 140px;}
-#section1 .txt{width: 512px; display: flex; flex-direction: column; align-items: center;}
-#section1 .txt .txt1{margin-top: 50px;}
+#section1 {width: 100%; height: auto; display: flex; justify-content: space-evenly; }
+#section1 .io{width: 50%; position: relative;}
+#section1 .io img{max-width: 100%; max-height: 100%; transform: translate(-50% , -50%);
+    position: absolute; left: 50%; top: 50%;}
+#section1 .txt{width: 50%; display: flex; flex-direction: column; align-items: center;}
+#section1 .txt .txt1{margin-top: 50px; width: 100%;}
 #section1 .txt h1{text-align: center;}
 #section1 .txt button{width: 150px; height: 50px; float: left; cursor: pointer; border: 0;
-background-color: rgb(46, 85, 155); color: white; font-size: 20px;}
+background-color: rgb(46, 85, 155); color: white; font-size: 20px; margin-bottom: 40px;
+margin-top: 30px;}
 #section1 .txt button:hover{background-color: black;}
 
 #etc{width: 100%; height: auto; margin: 0 auto;}
