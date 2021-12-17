@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media(min-width:600px) and (max-width:1199px){
 .slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
-justify-content: center; flex-direction: column; align-items: center;}
+justify-content: center; flex-direction: column; align-items: center; }
 .slide video{width: 100%; height: 100%;}
 .slide h1{color: white; text-align: center;font-size: 50px;}
 .slide #btn{width: 500px; height: auto; flex-wrap: wrap;
@@ -16,7 +16,7 @@ border: 1px solid white;}
 .slide #btn #btn1:hover{background-color: black;}
 .slide #btn #btn2:hover{background-color: rgb(46, 85, 155); border: 0;}
 
-#cars{width: 100%; height: 250px; display: flex; margin-top: -4px;}
+#cars{width: 100%; height: 250px; display: flex; margin-top: -4px; }
 #cars div img{width: 200px; height: 120px; }
 #cars .cars1{width: 25%; height: 250px; background-color: rgb(46, 85, 155); 
 display: flex; flex-wrap: wrap; align-content: center; font-size: 30px;
@@ -36,7 +36,7 @@ background-color: rgb(46, 85, 155); color: white; font-size: 20px; margin-bottom
 margin-top: 30px;}
 #section1 .txt button:hover{background-color: black;}
 
-#etc{width: 100%; height: auto; margin: 0 auto;}
+#etc{width: 100%; height: auto; margin: 0 auto; }
 #etc .etc1{width: 100%; height: auto; }
 #etc .etc1 .lineup{ width:100%; height: auto; display: flex; justify-content: space-evenly; 
  flex-wrap: wrap;  margin: 0;}
@@ -52,7 +52,7 @@ flex-wrap: wrap;}
 .more .mbox .box{width: 30%; height: 400px; text-align: center;}
 .more img{width: 100%; height: auto;}
 
-.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px; }
+.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px;background-color: aqua; }
 .slide2 img {width: 100%; height: auto;}
 
 
