@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.slide_1{width: 100%; height: 800px; background-color: aqua;}
+
+
+.carcol{width: 100%; height: 700px; background-color: burlywood;}
+.carcol .color{width: 1200px; height: 100%; background-color: cornflowerblue;}
+
+.slide_2{width: 100%; height: 800px; background-color: cyan;}
