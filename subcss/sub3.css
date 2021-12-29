@@ -9,7 +9,7 @@ background: url(../subimg/IONIQ5.jpg) no-repeat center/cover; position: relative
 .slide_1 .txt h4{font-size: 25px;}
 .slide_1 .txt span{font-size: 40px; font-weight: bold;}
 .slide_1 .q{position: absolute; z-index: 2; width: 100%; 
-right: 0%; top: 95%;}
+right: 0%; top: 95%; display: none;}
 
 #icon{width: 100%; height: auto;background-color: rgb(248,248,248);}
 #icon .ic{width: 1000px; height: 150px; display: flex; justify-content: space-evenly;
