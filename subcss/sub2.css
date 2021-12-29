@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media(min-width:600px) and (max-width:1199px){
 .slide_1{width: 100%; height: 850px; margin: 0 auto; 
-background: url(../subimg/IONIQ5.jpg) no-repeat center/cover ; position: relative;}
+background: url(../subimg/IONIQ5.jpg) no-repeat center/cover; position: relative;}
 .slide_1 .slim{width: 100%; height: 700px;}
 .slide_1 .txt{width: 1200px; height: auto; position: absolute; top: 10%; 
  left: 15%; }
@@ -30,8 +30,6 @@ width: 200px; height: 120px; margin: auto;}
 #icon .ic .d .big{font-size: 28px;}
 #icon .ic .e{border-left: 1px solid #666; border-right: 1px solid #666;}
 #icon .ic .e .big{font-size: 28px;}
-
-
 
 .carcol{width: 100%; height: 800px; }
 .carcol .color{width: 1200px; height: 100%; margin:0 auto; }
@@ -67,10 +65,9 @@ flex-wrap: wrap;}
 .slide_2_1 .slide_2_2{width: 470px; height: 500px;}
 .slide_2_1 .slide_2_2 img{width: 100%; height: 350px;}
 
-
 .slide_3{width: 100%; height: 850px; background:url(../subimg/spaceinterior.jpg)no-repeat center/cover;}
 .slide_3 .slide_h{width: 1000px; height: 80px; display: flex; flex-wrap: wrap;
-    justify-content: center;}
+justify-content: center;}
 .slide_3 .slide_h h1{width: 200px; height: auto; font-size: 60px; margin: 0;}
 .slide_3 .slide_h h2{width: 750px; height: 50px; font-size: 20px; margin-left: 20px; margin-top: 20px;}
 .slide_3_1{width:1000px; height: 1000px;  
