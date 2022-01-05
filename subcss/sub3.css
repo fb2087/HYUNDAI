@@ -4,7 +4,7 @@
 background: url(../subimg/IONIQ5.jpg) no-repeat center/cover; position: relative;}
 .slide_1 .slim{width: 100%; height: 700px;}
 .slide_1 .txt{width: 1200px; height: auto; position: absolute; top: 10%; 
- left: 15%; }
+ left: 15%; display: none;}
 .slide_1 .txt h1{font-size: 70px; display: none;}
 .slide_1 .txt h4{font-size: 25px; display: none;}
 .slide_1 .txt span{font-size: 40px; font-weight: bold; display: none;}
@@ -39,13 +39,13 @@ width: 100%; height: 120px; margin: auto;}
 .carcol .color .cc img{width: 100%;height: 100%;  margin: 0 auto;}
 .carcol .color h1{text-align: center; margin-bottom: 30px; margin-top: 100px;}
 .cgrey,.ggrey,.sgrey,.white,.gold,.blue,.olive,.dgreen{display: none;}
-.carcol .btn{width: 700px; height: 50px; margin: 0 auto; display: flex; justify-content: space-evenly; align-content: space-between;}
+.carcol .btn{width: 100%; height: 100px; margin: 0 auto; display: flex; justify-content: space-evenly; align-content: space-between;}
 .carcol .btn p{margin: 0;}
 .carcol .btn button{margin: 0; width: 30px; height: 30px; border-radius: 20px; 
 border: 1px solid #666; cursor: pointer; }
 .cgrey2,.ggrey2,.sgrey2,.white2,.gold2,.blue2,.olive2,.dgreen2{display: none;}
-.colorname{width: 180px; margin: 0 auto; margin-left: 60px;}
-.carbtn{width: 500px; margin: 0 auto;}
+.colorname{width: 20%; margin: 0 auto; }
+.carbtn{width: 80%; margin: 0 auto;}
 .black1{background-color: rgb(25, 25, 25);}
 .cgrey1{background-color: rgb(151, 147, 144);}
 .ggrey1{background-color: rgb(71, 71, 69);}
@@ -61,31 +61,32 @@ background:url(../subimg/slide2.jpg)no-repeat center/cover;}
 .slide_2 .slide_h{width: 100%; height: 80px; display: flex; justify-content: space-evenly;
 justify-content: center;}
 .slide_2 .slide_h h1{width: 20%; height: auto; font-size: 30px; margin: 0; padding-top: 10px;}
-.slide_2 .slide_h h2{width: 80%; height: auto; font-size: 12px; margin-left: 20px; margin-top: 20px;}
+.slide_2 .slide_h h2{width: 80%; height: auto; font-size: 11px; margin-left: 20px; margin-top: 20px;}
 .slide_2_1{width: 100%; height: auto;  display: flex; flex-direction: column; 
 flex-wrap: wrap;}
 .slide_2_1 .slide_2_2{width: 470px; height: 500px;}
 .slide_2_1 .slide_2_2 img{width: 100%; height: 350px;}
 
 
-.slide_3{width: 100%; height: 850px; background:url(../subimg/spaceinterior.jpg)no-repeat center/cover;}
-.slide_3 .slide_h{width: 1000px; height: 80px; display: flex; flex-wrap: wrap;
-justify-content: center;}
-.slide_3 .slide_h h1{width: 200px; height: auto; font-size: 60px; margin: 0;}
-.slide_3 .slide_h h2{width: 750px; height: 50px; font-size: 20px; margin-left: 20px; margin-top: 20px;}
-.slide_3_1{width:1000px; height: 1000px;  
-display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+.slide_3{width: 100%; height: 400px; background-size: 100% 100%;
+background:url(../subimg/spaceinterior.jpg)no-repeat center/cover;}
+.slide_3 .slide_h{width: 100%; height: 80px; display: flex; justify-content: space-evenly;
+    justify-content: center;}
+.slide_3 .slide_h h1{width: 20%; height: auto; font-size: 30px; margin: 0; padding-top: 10px;}
+.slide_3 .slide_h h2{width: 80%; height: auto; font-size: 11px; margin-left: 20px; margin-top: 20px;}
+.slide_3_1{width: 100%; height: auto;  display: flex; flex-direction: column; 
+    flex-wrap: wrap;}
 .slide_3_1 .slide_3_2{width: 470px; height: 500px; }
 .slide_3_1 .slide_3_2 img{width: 100%; height: 350px;}
 
-.slide_4{width: 100%; height: 850px;
+.slide_4{width: 100%; height: 400px; background-size: 100% 100%;
 background:url(../subimg/smartsense.jpg)no-repeat center/cover;}
-.slide_4 .slide_h{width: 1000px; height: 80px; display: flex; flex-wrap: wrap;
-justify-content: center;}
-.slide_4 .slide_h h1{width: 200px; height: auto; font-size: 60px; margin: 0;}
-.slide_4 .slide_h h2{width: 680px; height: 50px; font-size: 20px; margin-left: 20px; margin-top: 20px;}
-.slide_4_1{width:1000px; height: 1300px;  
- display: flex; justify-content: space-evenly; flex-wrap: wrap; }
+.slide_4 .slide_h{width: 100%; height: 80px; display: flex; justify-content: space-evenly;
+    justify-content: center;}
+.slide_4 .slide_h h1{width: 20%; height: auto; font-size: 30px; margin: 0; padding-top: 10px;}
+.slide_4 .slide_h h2{width: 80%; height: auto; font-size: 11px; margin-left: 20px; margin-top: 20px;}
+.slide_4_1{width: 100%; height: auto;  display: flex; flex-direction: column; 
+    flex-wrap: wrap; }
 .slide_4_1 .slide_4_2{width: 470px; height: 560px; }
 .slide_4_1 .slide_4_2 img{width: 100%; height: 350px;}
 }
